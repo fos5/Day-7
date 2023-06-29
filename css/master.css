@@ -29,8 +29,6 @@ header{
    color:  #3973ac;
    margin-bottom: 15px;
 }
- div h4{
- }
 .flex-box-2 p{
   margin: 20px auto;
   line-height: 1.6;
@@ -39,4 +37,21 @@ header{
 /* image */
 img{
   height: 300px;
+}
+.timer{
+  display: flex;
+  gap: 10px;
+}
+.timer  div{
+  /* border: 20px solid rgb(1, 1, 46); */
+  background-color: rgb(1, 1, 46);
+  color: #fff;
+  padding: 10px ;
+  height: min-content;
+}
+.timer_display{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 4px;
 }
